@@ -1,0 +1,26 @@
+.todoapp{
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.apmain{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 20px 8%;
+}
+
+.tasks{
+   width: 33.33%;
+   margin: 20px;
+   color: rgba(155, 21, 217, 0.536);
+}
+.day{
+  background-color: white;
+  color: #000;
+  transition: all 2s ease-in-out;
+}
+.night{
+   background-color: black;
+   color: white;
+   transition: all 1.5s ease-in-out;
+}
